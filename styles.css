@@ -87,6 +87,9 @@ header nav a{
 #form h3{
     font-weight: 600;
 }
+u{
+    text-decoration-style: dotted;
+}
 textarea::placeholder{
     font-size: 1.25rem;
 }
@@ -114,10 +117,5 @@ footer nav{
     }
     .navbar-brand{
         font-size: 1rem !important;
-    }
-}
-@media (max-width:991px){
-    footer ul{
-        align-items: center;
     }
 }
