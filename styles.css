@@ -1,0 +1,123 @@
+body{
+    font-size:0.9em;
+}
+.navbar{
+    background-color:#353a40;
+}
+nav img{
+    width:110px;
+}
+.navbar-brand{
+    font-size: 1.45rem !important;
+    font-weight: 400 !important;
+}
+header nav a{
+    font-size: 1.10rem !important;
+    font-weight: 500 !important;
+}
+.text-gray{
+    color: #9a9a9a;
+}
+.text-green{
+    color: #2e9645;
+}
+.btn-green{
+    background-color: #29a744;
+    color: #fff;
+}
+.btn-green:hover{
+    border: 1px solid #fff;
+}
+.btn-outline-light:hover{
+    color: #29a744 !important;
+}
+.carousel-item{
+    height: 700px;
+}
+.carousel-item img{
+    height: 100%;
+}
+.carousel-caption{
+    height: 100%;
+    flex-direction: column;
+    text-align: right;
+    top: 3rem;
+}
+.carousel-caption p{
+    font-size: 1.15rem;
+}
+.carousel .btn{
+    font-size: 1.15rem;
+}
+.carrousel{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.oradores{
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.80rem;
+}
+.card{
+    margin: 0 15px 30px;
+    width: 330px;
+}
+.card-body a{
+    text-decoration: none;
+}
+.bg-inf{
+    background-color: #18a1b7;
+}
+#honolulu{
+    width:100%;
+}
+#honolulu-text{
+    background-color: #353a40;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#form{
+    flex-direction: column;
+}
+#form span{
+    font-size: 0.80rem;
+}
+#form h3{
+    font-weight: 600;
+}
+textarea::placeholder{
+    font-size: 1.25rem;
+}
+form p{
+    font-size: 0.80rem;
+}
+#form button{
+    background-color: #96c93e;
+    font-size: 1.25rem;
+}
+footer nav{
+    background-image: linear-gradient(to right, #1d3947, #1e5170);
+    min-height: 85px;
+}
+@media (max-width:575px){
+    .carousel-caption{
+        align-items: center;
+        text-align: center;
+    }
+    .carousel-caption p{
+        font-size: 1rem;
+    }
+    nav img{
+        width:90px;
+    }
+    .navbar-brand{
+        font-size: 1rem !important;
+    }
+}
+@media (max-width:991px){
+    footer ul{
+        align-items: center;
+    }
+}
