@@ -1,0 +1,53 @@
+.dto{
+    margin-top: 25px;
+}
+.dto div{
+    border: solid 1px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    width: 194px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.dto div:first-child{
+    border-color: #0d81fd;
+}
+.dto div:nth-child(2){
+    border-color: #51b9c9;
+}
+.dto div:nth-child(3){
+    border-color: #ffc107;
+}
+h2, h5{
+    font-weight: 600;
+}
+h5{
+    line-height: 40px;
+}
+b{
+    line-height: 35px;
+}
+p{
+    margin:0;
+}
+form input:first-child{
+    margin: 10px 0 15px 0;
+}
+form .col{
+    text-align: left;
+}
+label{
+    margin: 10px 0;
+    font-size: 15px;
+}
+#total{
+    text-align: left;
+    font-size: 15px;
+    margin: 22px 0;
+}
+.btn{
+    color: #fff;
+    background-color: #97c93e;
+    width: 100%;
+    margin-bottom: 15px;
+}
