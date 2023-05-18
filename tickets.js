@@ -11,11 +11,10 @@ function calcular(){
     } else {
         descuento = 15/100;
     }
-    document.getElementById("total").innerHTML="Total a Pagar: $" + ((cantidad*200)-(cantidad*200*descuento));
+    document.getElementById("total").value="Total a Pagar: $" + ((cantidad*200)-(cantidad*200*descuento));
 }
 
 function borrar(){
    let form = document.getElementById("form");
-   document.getElementById("total").innerHTML="Total a Pagar: $";
    form.reset();
 }
